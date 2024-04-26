@@ -40,7 +40,7 @@
                                 <rect key="frame" x="219" y="459" width="144" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <buttonConfiguration key="configuration" style="filled" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="-">
                                             <attributes>
@@ -49,7 +49,6 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <attributedString key="attributedSubtitle"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" systemColor="tintColor"/>
                                 </buttonConfiguration>

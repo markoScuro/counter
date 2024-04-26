@@ -11,12 +11,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
         historyView.text.append("История изменений:\n")
+        historyView.isEditable = false
     }
-   
-    var count = 0
-    var dateChanges = Date().formatted()
+    
+    fileprivate var count = 0
+    fileprivate var dateChanges = Date().formatted()
     
     
     @IBAction func plus(_ sender: Any) {
